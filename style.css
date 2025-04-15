@@ -1,130 +1,138 @@
 body {
-    font-family: sans-serif;
-    background: #fff;
-    text-align: center;
-    margin: auto;
-    padding: 0;
-    max-width: 400px;
-    justify-content: center;
-    background-color: #f5f5f5;
-  }
-
-  .food-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    padding: 40px 20px 20px;
-  }
-
-  .food-grid img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #f5f5f5;
-    padding: 10px;
-  }
-
-  .login-section {
-    max-width: 400px;
-    margin-top: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding-top: 1px;
-  }
- 
-.login-border{
-    width: 60px;
-    height: 4px;
-    background-color: #ccc;
-    border-radius: 2px;
-    margin: 20px auto;
-    
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  width: 391px;
+  height: 846px;
+  justify-content: center;
+  background-color: #fafaff;
+  position: relative;
 }
-.login-1{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-right: 50px;
+.header {
+  width: 327.33px;
+  height: 23.83px;
+  margin-top: 15.89px;
+  margin-right: 32px;
 }
-.login-3{
-    margin-top: 30px;
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 61.92px;
+  /* gap: 15px; */
+  /* padding: 40px 20px 20px; */
 }
-.label{
-    color: gray;
-    margin-top: 10px;
-    margin-left: 50px;
-    padding-left: 70px;
-}
-.login-2{
-    background-color: #ff4d6d;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-.login-1 i {
-    font-size: 20px; 
-    padding-top: 15px;
-    border-radius: 50%;
-    color: #fff;
-    
-    
+.food1 {
+  width: 44px;
+  height: 44px;
+  opacity: 100%;
+  padding-top: 35.79px;
 }
 
-.login-1 h2 {
-    font-size: 20px;
-    margin: 0; 
+.food {
+  width: 116.16px;
+  height: 116.116px;
+  object-fit: cover;
+  border-radius: 92.93px;
+  background: #ffffff;
+  opacity: 32%;
+  padding: 0px;
 }
-
-  .login-section h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  .login-section input {
-    padding: 10px;
-    width: 80%;
-    max-width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 16px;
-    margin-bottom: 20px;
-    
-  }
-
-  .login-section button {
-    background-color: #ff4d6d;
-    color: white;
-    border: none;
-    padding: 12px 30px;
-    font-size: 16px;
-    border-radius: 30px;
-    cursor: pointer;
-  }
-
-
-  .input-container {
-    position: relative;
-    width: 250px; 
-  }
-  .input-container .icon {
-    position: absolute;
-    right: 270px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #888; 
-    pointer-events: none; 
-  }
+.food-opacity{
+  opacity: 72%;
+}
+.login-section {
+  position: absolute;
+  width: 345px;
+  height: 372px;
+  opacity: 100%;
+ top: 448px;
+ left: 23px;
   
-  .input-container input {
-    border-radius: 20px;
-    background-color: #ccc;
-    margin-top: 20px;
-    margin-right: 45px;
-    width: 100%;
-    padding: 10px 10px 10px 35px; /* فضای خالی سمت چپ برای آیکون */
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+  background-color: white;
+  border-radius: 16px;
+}
+
+.login-section img{
+  width: 57px;
+  height: 0px;
+  border: 2px solid gray;
+  border-radius:2px ;
+  color: gray;
+  position: absolute;
+  left: 144px;
+  top: 16px;
+}
+.login-1 {
+  position: absolute;
+  width: 162px;
+  height: 48px;
+  left: 159px;
+  top: 56px;
+ 
+  
+}
+.login-1 img{
+  position: absolute;
+  left: 114px;
+width: 48px;
+height: 48px;
+border: 1px solid white;
+border-radius: 50%;
+}
+.login-1 p{
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  width: 106px;
+  height: 26px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.label {
+  position: absolute;
+  top: 136px;
+  left: 164px;
+  width: 157px;
+  height: 18px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+.input{
+  position: absolute;
+  left: 24px;
+  top: 190px;
+  width:270px;
+  height: 44px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: rgba(107, 114, 128, 0.35);
+}
+.input p{
+  position: absolute;
+  top: 12px;
+  left: 197px;
+  width: 94px;
+  height: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.input img{
+  position: absolute;
+  top: 26px;
+  left: 16px;
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  border: #ffffff;
+}
+
+
+
+
+
+
+
+
